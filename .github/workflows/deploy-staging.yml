@@ -1,8 +1,8 @@
 name: Stage the app
 
-on: 
+on:
   pull_request:
-    types: development
+    types: [labeled]
 
 jobs:
   build:
